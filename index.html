@@ -2,36 +2,60 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Alexandra Fuentes | Portfolio</title>
-    <link rel="stylesheet" href="css/style.css" />
+    <meta charset="UTF-8">
+    <title>Alexandra Fuentes - Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <header>
-        <h1>Alexandra Fuentes</h1>
-        <p>Web Developer & Data Enthusiast</p>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="about.html">Sobre mí</a>
-            <a href="projects.html">Proyectos</a>
-            <a href="contact.html">Contacto</a>
-        </nav>
-    </header>
 
-    <main>
-        <section class="intro">
-            <h2>Bienvenida</h2>
-            <p>Soy Alexandra, apasionada por la tecnología, el diseño web y el análisis de datos.</p>
-            <p>Explora mis proyectos para conocer más sobre lo que puedo aportar.</p>
-        </section>
-    </main>
+    <!-- HEADER / HERO -->
+    <section class="hero">
+        <img src="img/mi-foto.jpg" alt="Alexandra Fuentes" class="profile-pic">
+        <h1>Hi, I'm Alexandra Fuentes</h1>
+        <p>Junior Web Developer passionate about clean code, user-friendly design, and learning new technologies.</p>
+    </section>
 
-    <footer>
-        <p>&copy; 2025 Alexandra Fuentes</p>
-    </footer>
-    <script src="js/script.js"></script>
+    <!-- PROJECTS -->
+    <section class="projects">
+        <h2>Projects</h2>
+        <div class="project-list">
+
+            <div class="project-card">
+                <h3>Virtual Store</h3>
+                <p> An e-commerce demo with Node.js, Express, and EJS templates.
+                    A full-stack e-commerce demo built with Node.js, Express, TypeScript, and EJS templates.
+                    I implemented dynamic product rendering.
+                    The biggest challenge was configuring the deployment with Render using TypeScript and ensuring
+                    proper view paths,
+                    which I resolved by customizing the build process and adjusting file structures.
+                </p>
+                <a href="https://individual-ecommerce-project.onrender.com" target="_blank">Live Demo</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML & CSS</li>
+            <li>JavaScript & TypeScript</li>
+            <li>Python</li>
+            <li>Git & GitHub</li>
+            <li>Revit & AutoCAD</li>
+        </ul>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:alexahermi97@gmail.com">alexahermi97@gmail.com</a></p>
+        <p>GitHub: <a href="https://github.com/alexandrafuentesavendano" target="_blank">alexandrafuentesavendano</a>
+        </p>
+    </section>
+
 </body>
 
 </html>
